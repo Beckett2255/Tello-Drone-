@@ -50,6 +50,12 @@ def square():
         sendmsg("foward 100")
         sendmsg("ccw 90")
 
+# Triangle Function
+def triangle():
+    for i in range(3):
+        sendmsg("forward 100")
+        sendmsg("cw 120")
+
 
 
 print("\nBeckett Jacobs ")
