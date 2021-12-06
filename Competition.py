@@ -41,33 +41,34 @@ recvThread = threading.Thread(target=recv)
 recvThread.start()
 
 
-# CREATE FUNCTIONS HERE....
+def firstHoop():
+    sendmsg("up 100")
+    sendmsg("forward 200")
 
-def FirstHoop():
-
-
-'''
-# def SecondHoop():
+    sendmsg("forward 300")
 
 
+"""
+# def secondHoop():
 
-# def ThirdHoop():
-
-
-
-# def ForthHoop():
-'''
-
-print("\nTeam: Jacobs and Krueger")
-print("Program Name: Hoop Competition")
-print("Date: 11-29-2021")
-print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
-print("\n****CHECK SURROUNDING AREA BEFORE FLIGHT****")
-ready = input('\nAre you ready to take flight: ')
+def secondHoop():
+     sendmsg("up 100")
+     sendmsg("forward 100")
+# def thirdHoop():
 
 
-try:
-    if ready.lower() == 'yes':
+# def fourthHop(): 
+#D8DE1F
+    sendmsg("up 100")
+    sendmsg("forward 40")
+    sendmsg("ccw 90")
+    sendmsg("forward 50")
+    sendmsg(cw 90")
+
+#D8DE1F    
+"""
+
+print("\nTeam: Krueger and Jacobs")
         print("\nStarting Drone!\n")
 
         sendmsg('command', 0)
@@ -87,3 +88,4 @@ except KeyboardInterrupt:
 
 breakr = True
 sock.close()
+sock.close() 
